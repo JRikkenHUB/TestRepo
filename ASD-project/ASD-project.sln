@@ -3,39 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASD-Game", "ASD-project\ASD-Game.csproj", "{8AAFCBA7-20D4-4A1D-8B47-F1301E363B01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldGeneration", "WorldGeneration\WorldGeneration.csproj", "{899CF598-64C5-4D45-B974-4FB258B54080}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldGeneration", "WorldGeneration\WorldGeneration.csproj", "{899CF598-64C5-4D45-B974-4FB258B54080}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lobby", "Lobby\Lobby.csproj", "{818D7F61-EB23-4BBE-964F-E57BC54175EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lobby", "Lobby\Lobby.csproj", "{818D7F61-EB23-4BBE-964F-E57BC54175EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creature", "Creature\Creature.csproj", "{188F52A8-34CF-47D0-948C-73119DFFACE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creature", "Creature\Creature.csproj", "{188F52A8-34CF-47D0-948C-73119DFFACE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserInterface", "UserInterface\UserInterface.csproj", "{74471B6D-BE5B-4D50-A32C-0F39C4B4DCB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "UserInterface\UserInterface.csproj", "{74471B6D-BE5B-4D50-A32C-0F39C4B4DCB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat", "Chat\Chat.csproj", "{EF8FC0B2-A842-42F9-B973-712AB2DC2E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat", "Chat\Chat.csproj", "{EF8FC0B2-A842-42F9-B973-712AB2DC2E2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agent", "Agent\Agent.csproj", "{5B5FD377-649F-4BCE-8EF7-0167650475F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent", "Agent\Agent.csproj", "{5B5FD377-649F-4BCE-8EF7-0167650475F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParserLexer", "ParserLexer\ParserLexer.csproj", "{B78B3E54-9E7A-419C-86AA-E05B21917402}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParserLexer", "ParserLexer\ParserLexer.csproj", "{B78B3E54-9E7A-419C-86AA-E05B21917402}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Player", "Player\Player.csproj", "{D48DBA23-FDC8-40FA-AAB1-E09AEDC43F61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Player", "Player\Player.csproj", "{D48DBA23-FDC8-40FA-AAB1-E09AEDC43F61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agent.Tests", "Agent.Tests\Agent.Tests.csproj", "{FBCBFE02-C99B-4436-8E42-C921AE6A6BE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent.Tests", "Agent.Tests\Agent.Tests.csproj", "{FBCBFE02-C99B-4436-8E42-C921AE6A6BE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.Tests", "Chat.Tests\Chat.Tests.csproj", "{F4C269A6-CA96-483F-8BD2-1518CDE8F0B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Tests", "Chat.Tests\Chat.Tests.csproj", "{F4C269A6-CA96-483F-8BD2-1518CDE8F0B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creature.Tests", "Creature.Tests\Creature.Tests.csproj", "{FC91E850-F925-41EF-A217-20CAB945F564}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creature.Tests", "Creature.Tests\Creature.Tests.csproj", "{FC91E850-F925-41EF-A217-20CAB945F564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lobby.Tests", "Lobby.Tests\Lobby.Tests.csproj", "{2FE32D2B-89C2-4216-98AC-332E7718BC26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lobby.Tests", "Lobby.Tests\Lobby.Tests.csproj", "{2FE32D2B-89C2-4216-98AC-332E7718BC26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParserLexer.Tests", "ParserLexer.Tests\ParserLexer.Tests.csproj", "{1CA408BF-A6AA-49EF-853F-6127D982916D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParserLexer.Tests", "ParserLexer.Tests\ParserLexer.Tests.csproj", "{1CA408BF-A6AA-49EF-853F-6127D982916D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Player.Tests", "Player.Tests\Player.Tests.csproj", "{CAA259BF-33A8-4B49-99F0-BDD65FA32265}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Player.Tests", "Player.Tests\Player.Tests.csproj", "{CAA259BF-33A8-4B49-99F0-BDD65FA32265}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserInterface.Tests", "UserInterface.Tests\UserInterface.Tests.csproj", "{A2999ED5-88D0-4289-B35B-F50697110627}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface.Tests", "UserInterface.Tests\UserInterface.Tests.csproj", "{A2999ED5-88D0-4289-B35B-F50697110627}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldGeneration.Tests", "WorldGeneration.Tests\WorldGeneration.Tests.csproj", "{4E35DC1D-7AAD-47A6-B700-AF0433C0C9BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldGeneration.Tests", "WorldGeneration.Tests\WorldGeneration.Tests.csproj", "{4E35DC1D-7AAD-47A6-B700-AF0433C0C9BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASD-Game", "ASD-Game\ASD-Game.csproj", "{7FC7413A-3987-43C7-82F6-FCB4051CC2BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +43,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8AAFCBA7-20D4-4A1D-8B47-F1301E363B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AAFCBA7-20D4-4A1D-8B47-F1301E363B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AAFCBA7-20D4-4A1D-8B47-F1301E363B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AAFCBA7-20D4-4A1D-8B47-F1301E363B01}.Release|Any CPU.Build.0 = Release|Any CPU
 		{899CF598-64C5-4D45-B974-4FB258B54080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{899CF598-64C5-4D45-B974-4FB258B54080}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{899CF598-64C5-4D45-B974-4FB258B54080}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -111,6 +107,10 @@ Global
 		{4E35DC1D-7AAD-47A6-B700-AF0433C0C9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E35DC1D-7AAD-47A6-B700-AF0433C0C9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E35DC1D-7AAD-47A6-B700-AF0433C0C9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC7413A-3987-43C7-82F6-FCB4051CC2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC7413A-3987-43C7-82F6-FCB4051CC2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC7413A-3987-43C7-82F6-FCB4051CC2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC7413A-3987-43C7-82F6-FCB4051CC2BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
